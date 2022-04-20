@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+h4 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.content {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    height: 1000px;
+    margin: 30px 250px 30px 250px;
+    display: flex;
+    flex-direction: row;
+    width: 900px
+}
+
+/* left half */
+
+.half1 {
+    
+    width: 300px;
+    background-color: #3bc928;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+img {
+    border-radius: 100px;
+    margin-top: 50px;
+}
+
+.contact h4 {
+    text-align: center;
+    position: relative;
+    margin-top: 30px;
+
+}
+
+.mobile {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.mobile img {
+    margin-left: -150px;
+    margin-top: 0;
+    height: 20px;
+}
+
+.mobile p {
+    margin-top: 2px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.address {
+    position: absolute;
+    height: 10vh;
+    width: 300px;
+    margin-top: 20px;
+
+}
+
+.address img {
+    margin-top: -3px;
+    margin-left: 15px;
+    width: 20px;
+    height: 23px;
+}
+
+.address p {
+    position: absolute;
+    top: 0;
+    margin-left: 45px;
+
+    font-weight: 600;
+}
+
+.mail {
+    height: 55px;
+    margin-top: 75px;
+    width: 280px;
+    margin-left: 10px;
+    position: absolute;
+}
+
+.mail img {
+    position: relative;
+    margin-top: 10px;
+
+}
+
+.mail p {
+    text-align: center;
+    font-weight: 600;
+    margin-top: -20px;
+    margin-left: 15px;
+
+}
+
+.link {
+
+    margin-top: 115px;
+    height: 50px;
+
+    width: 280px;
+
+
+}
+
+.link img {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 12px;
+}
+
+.link a {
+    position: absolute;
+    text-decoration: none;
+    margin-left: 45px;
+    margin-top: 5px;
+    color: #000;
+    font-weight: 600;
+
+}
+
+.info {
+    height: 190px;
+    width: 220px;
+    margin-top: 30px;
+    margin-left: 40px;
+    padding: 7px;
+
+
+
+}
+
+.info p {
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: 16px;
+    margin-left: 15px;
+    padding-top: 10px;
+}
+
+/* right half */
+.half2 {
+
+    width: 600px;
+}
+
+.half2 h1 {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 36px;
+
+}
+.about{
+    
+    padding: 5px;
+    margin-top: 25px;
+}
+.about h3{
+    color: rgb(34, 62, 219);
+    margin-left: 10px;
+}
+.about p
+{
+    
+    padding: 10px;
+    font-size:17px
+}
+.edu{
+    width:600px;        
+}
+.edu h3{
+    color: rgb(34, 62, 219);
+    margin-left: 10px;
+}
+.edu ul{
+    margin-left: 25px;
+}
+.edu li{
+    padding: 2px;
+    font-size: 17px;
+}
+
+.skills{
+    width:600px;        
+    margin-top: 10px;
+}
+.skills h3{
+    color: rgb(34, 62, 219);
+    margin-left: 10px;
+
+}
+.skills ul{
+    margin-left: 25px;
+}
+.skills li{
+    padding: 2px;
+    font-size: 17px;
+}
+
+
+.train{
+    width:600px;        
+    margin-top: 10px;
+}
+.train h3{
+    color: rgb(34, 62, 219);
+    margin-left: 10px;
+
+}
+.train ul{
+    margin-left: 25px;
+}
+.train li{
+    padding: 2px;
+    font-size: 17px;
+}
+.hobby{
+    
+    padding: 5px;
+    margin-top: 10px;
+}
+.hobby h3{
+    color: rgb(34, 62, 219);
+    margin-left: 10px;
+}
+.hobby p
+{
+    
+    padding: 10px;
+    font-size:17px
+}
+.str{
+    width:600px; 
+    margin-left: px;       
+    
+}
+.str h3{
+    color: rgb(34, 62, 219);
+    margin-left: 10px;
+
+}
+.str ul{
+    margin-left: 25px;
+}
+.str li{
+    padding: 2px;
+    font-size: 17px;
+}   
+.dec{
+    
+    padding: 5px;
+    margin-top: 10px;
+}
+.dec h3{
+    color: rgb(34, 62, 219);
+    margin-left: 10px;
+}
+.dec p
+{
+    
+    padding: 10px;
+    font-size:17px
+}
